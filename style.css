@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  transition: background 0.3s ease;
+}
+
+.change-btn {
+  background-color: #000;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 18px;
+  padding: 20px 50px;
+}
+
+.change-btn:active {
+  transform: scale(0.98);
+}
+
+.change-btn:focus {
+  background-color: #444;
+  outline: none;
+}
+
+.change-text {
+  font-size: 14px;
+}
