@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Mulish", sans-serif;
   display: flex;
@@ -21,7 +27,8 @@ body {
   padding: 20px 50px;
 }
 
-.change-btn:active {
+.change-btn:active,
+.btn:active {
   transform: scale(0.98);
 }
 
@@ -32,4 +39,24 @@ body {
 
 .change-text {
   font-size: 14px;
+}
+
+.color-text {
+  margin-top: 1rem;
+}
+
+.btn {
+  margin: 1.3rem;
+  cursor: pointer;
+}
+
+.btn i {
+  font-size: 2rem;
+  padding: 5px 10px;
+}
+
+.copy-popup {
+  font-weight: bold;
+  display: none;
+  user-select: none;
 }
